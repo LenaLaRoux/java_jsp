@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="TestWebApp:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/TestWebApp_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="TestWebApp/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TestWebApp" />
+          <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/infinispan/infinispan-core/9.3.0.Final/infinispan-core-9.3.0.Final.jar" path-in-jar="/" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Hibernate 5.4.3-5.4.3" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.17" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
