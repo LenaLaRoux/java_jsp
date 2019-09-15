@@ -7,8 +7,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f1a8e11-1106-435f-98d9-ee18f0066562" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Controllers/UsersRefServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TestWebApp_war_exploded/WEB-INF/classes/Controllers/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TestWebApp_war_exploded/WEB-INF/classes/Controllers/IndexServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TestWebApp_war_exploded/WEB-INF/classes/Controllers/TariffsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TestWebApp_war_exploded/WEB-INF/classes/Controllers/TariffsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TestWebApp_war_exploded/WEB-INF/classes/Controllers/UsersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TestWebApp_war_exploded/WEB-INF/classes/Controllers/UsersServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TestWebApp_war_exploded/WEB-INF/classes/Entities/EntityModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TestWebApp_war_exploded/WEB-INF/classes/Entities/EntityModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TestWebApp_war_exploded/WEB-INF/classes/Utils/ColumnEditor/RefValEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TestWebApp_war_exploded/WEB-INF/classes/Utils/ColumnEditor/RefValEditor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TestWebApp_war_exploded/WEB-INF/classes/Utils/ColumnEditor/ValEditorFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TestWebApp_war_exploded/WEB-INF/classes/Utils/ColumnEditor/ValEditorFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TestWebApp_war_exploded/WEB-INF/files/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TestWebApp_war_exploded/WEB-INF/files/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TestWebApp_war_exploded/WEB-INF/files/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TestWebApp_war_exploded/WEB-INF/files/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/IndexServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/TariffsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/TariffsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/UsersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/UsersServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entities/EntityModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entities/EntityModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/ColumnEditor/RefValEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/ColumnEditor/RefValEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/ColumnEditor/ValEditorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/ColumnEditor/ValEditorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/IndexServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/TariffsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/TariffsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/UsersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/UsersServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entities/EntityModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Entities/EntityModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/ColumnEditor/RefValEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utils/ColumnEditor/RefValEditor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/ColumnEditor/ValEditorFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utils/ColumnEditor/ValEditorFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WEB-INF/files/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WEB-INF/files/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WEB-INF/files/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WEB-INF/files/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/files/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/files/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/files/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/files/styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,13 +137,6 @@
     <property name="settings.editor.selected.configurable" value="Images" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Controllers" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\LenaLaRoux\IntelliJIDEAProjects\TestWebApp\web\WEB-INF\files" />
-      <recent name="C:\Users\LenaLaRoux\IntelliJIDEAProjects\TestWebApp\web\pics" />
-    </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="Entities" />
       <recent name="" />
@@ -127,6 +144,13 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LenaLaRoux\IntelliJIDEAProjects\TestWebApp\src\main\resources" />
       <recent name="C:\Users\LenaLaRoux\IntelliJIDEAProjects\TestWebApp\web\WEB-INF\files" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Controllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LenaLaRoux\IntelliJIDEAProjects\TestWebApp\web\WEB-INF\files" />
+      <recent name="C:\Users\LenaLaRoux\IntelliJIDEAProjects\TestWebApp\web\pics" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -577,7 +601,9 @@
       <workItem from="1567016108237" duration="12617000" />
       <workItem from="1567102871746" duration="10839000" />
       <workItem from="1567449845636" duration="68132000" />
-      <workItem from="1567976325022" duration="4483000" />
+      <workItem from="1567976325022" duration="9305000" />
+      <workItem from="1568230355371" duration="2839000" />
+      <workItem from="1568571843368" duration="5084000" />
     </task>
     <servers />
   </component>
@@ -589,7 +615,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -604,11 +632,6 @@
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Utils/ColumnEditor/DoubValEditor.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Controllers/ContractsServlet.java</url>
           <line>15</line>
           <option name="timeStamp" value="67" />
@@ -619,59 +642,19 @@
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Controllers/ContractsServlet.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Utils/Meta.java</url>
-          <line>302</line>
-          <option name="timeStamp" value="81" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/EntityGroups/ContractGroup.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="95" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Utils/ColumnEditor/ColumnEditor.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="102" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Utils/Meta.java</url>
-          <line>251</line>
-          <option name="timeStamp" value="103" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Utils/Meta.java</url>
           <line>165</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Utils/ColumnEditor/ColumnEditor.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="110" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Utils/ColumnEditor/DateValEditor.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="111" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Entities/EntityModel.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="112" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Controllers/IndexServlet.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="113" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Controllers/IndexServlet.java</url>
-          <line>18</line>
+          <line>19</line>
           <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controllers/IndexServlet.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/web/WEB-INF/files/main.js</url>
@@ -682,6 +665,12 @@
           <url>file://$PROJECT_DIR$/web/WEB-INF/files/main.js</url>
           <line>1</line>
           <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/web/WEB-INF/files/main.js</url>
+          <line>42</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="118" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

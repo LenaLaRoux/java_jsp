@@ -19,15 +19,15 @@ public class RefValEditor extends ColumnEditor {
     @Override
     protected String getValueEditor() {
         StringBuilder sb = new StringBuilder();
-        sb.append("<div class=\"value-editor\">");
-        sb.append("<input type=\"text\" placeholder=\"<not defined>\"");
+        sb.append("<div class=\"ref-editor\">");
+        sb.append("<input class=\"ref title\" type=\"text\" placeholder=\"<not defined>\" readonly");
         sb.append("id=\""+fieldId+"\"");
         if (isRequired)
             sb.append(" required ");
         if (this.entity != null)
             sb.append(" value=\""+this.toString()+ "\"");
         sb.append(">");
-        sb.append("<input type=\"button\" value=\"...\"");
+        sb.append("<input class=\"ref button\" type=\"button\" value=\"...\" onclick=\"showSelector()\"");
         sb.append("</div>");
         return sb.toString();
     }

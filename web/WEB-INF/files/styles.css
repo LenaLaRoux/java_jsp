@@ -39,15 +39,22 @@ label {
     float: left;
     padding-right:20px;
 }
-.value-editor {
+.value-editor, .ref-editor {
     display: inline-block;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 250px;
 }
-.value-editor+input{
+
+.value-editor input, select{
     width: 100%;
+}
+.ref-editor {
+    display: inline-flex;
+}
+.ref-editor .title{
+    flex-grow: 1;
 }
 /*
 стили для селектора

@@ -37,3 +37,13 @@ function ajaxSelectorPopupCallback(responseText){
     var popupContent = document.getElementById("popup");
     popupContent.innerHTML = responseText;
 }
+
+function showSelector (){
+    var popupContent = document.getElementById("popup");
+    popupContent.innerHTML = "<iframe name=\"frameTest\"  " +
+        "width=\"600px\" height=\"600px\" " +
+        //"src=\"${pageContext.request.contextPath}/Selector.jsp\" " +
+        "src=\"/RefUsers\" " +
+
+        "scrolling=\"auto\" frameborder=\"0\">";
+}

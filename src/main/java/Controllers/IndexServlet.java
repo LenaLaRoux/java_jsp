@@ -3,6 +3,7 @@ package Controllers;
 import Entities.EntityModel;
 import EntityGroups.ModelGroup;
 import java.io.IOException;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -29,9 +30,10 @@ public abstract class IndexServlet extends HttpServlet {
 
         request.setAttribute("titles", group.getColumnsFilter().getList());
         request.setAttribute("models", group.models());
-        //String urlAttr = (String) request.getAttribute(RequestDispatcher.FORWARD_REQUEST_URI);
-        //String url = urlAttr == null? "/" : "/"+urlAttr;
-        getServletContext().getRequestDispatcher( "/").forward(request, response);
+        String urlAttr = (String) request.getAttribute(RequestDispatcher.FORWARD_REQUEST_URI);
+        String url = urlAttr == null? "/" : "/"+urlAttr;
+        getServletContext().getRequestDispatcher( defineRequestUrl ()).forward(request, response);
+        //"/WEB-INF/views/Selector.jsp"
     }
 
     private void buildEditor (String modelIndex, HttpServletResponse response) throws IOException{

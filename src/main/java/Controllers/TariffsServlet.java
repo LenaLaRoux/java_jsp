@@ -23,7 +23,7 @@ public class TariffsServlet extends IndexServlet {
 
     @Override
     protected String defineRequestUrl (){
-        return "/Tariffs";
+        return "/";
     }
 
    /* @Override

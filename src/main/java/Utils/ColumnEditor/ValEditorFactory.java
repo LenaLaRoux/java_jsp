@@ -3,8 +3,6 @@ package Utils.ColumnEditor;
 import Entities.IEntity;
 import Entities.IEnum;
 import Utils.Meta;
-
-import javax.persistence.Enumerated;
 import java.sql.Timestamp;
 import java.util.Date;
 

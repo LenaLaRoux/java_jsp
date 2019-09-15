@@ -52,15 +52,16 @@ public abstract class EntityModel implements Serializable, IEntity {
 
     public String toHtml(){
         StringBuilder sb = new StringBuilder();
-        sb.append("<div class=\"editor\">");
+        sb.append("<div class=\"standard-editor\">");
         sb.append("<form id=\"frmId\">");
         sb.append("<fieldset form=\"frmId\">");
         sb.append("<legend>"+this.calcTitle()+"</legend>");
         sb.append("<div class=\"prop-wrapper\">");
-        sb.append(" <div>");
+
         for (Meta.Column col : this.getEditorColumns()){
             sb.append(col.toHtml());
         }
+        sb.append(" </div>");
         sb.append(" </fieldset>");
 
         sb.append("</form>");

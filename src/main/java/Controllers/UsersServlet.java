@@ -14,7 +14,7 @@ public class UsersServlet extends IndexServlet {
 
     @Override
     protected String defineRequestUrl (){
-        return "/Users";
+        return "/";
     }
 
 }
